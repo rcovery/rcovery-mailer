@@ -1,0 +1,96 @@
+:root{
+    --green: #3BBA9C;
+    --green_two: #4fbba26d;
+    --bg: #2E3047;
+    --input-bg: #141C2A;
+}
+body{
+    font-family: monospace;
+    background-color: var(--bg);
+    color: var(--green);
+}
+
+#form_one{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea{
+    resize: vertical;
+}
+.input_style{
+    -webkit-text-fill-color: var(--green);
+    border-radius: 10px;
+    padding: 15px;
+    color: var(--green);
+    border: solid 1px #1C1C2B;
+    background: var(--input-bg);
+    transition: 0.1s;
+}
+.input_style:focus{
+    border-bottom: solid 2px var(--green);
+    outline: none;
+}
+input:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0 40px var(--input-bg) inset;
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    border-bottom: solid 2px var(--green);
+}
+
+.input-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.input-box + .input-box{
+    margin: 15px 0;
+}
+
+.input-box + p{
+    margin: 0 10px;
+}
+label{
+    color: var(--green_two);
+    position: absolute;
+    left: 15px;
+    transform: translateY(15px);
+    transition: 0.2s ease-in-out;
+}
+.input_style::placeholder{
+    visibility: hidden;
+}
+.input_style:focus + label, .input_style:not(:placeholder-shown) + label{
+    color: var(--green);
+    padding: 2px;
+    font-size: 13px;
+    border: solid 1px var(--green);
+    border-radius: 5px;
+    background: var(--input-bg);
+    left: 10px;
+    transform: translateY(-10px)
+}
+
+.contact{
+    width: 100%;
+    margin: 15px 0;
+    align-items: center;
+    display: flex;
+}
+
+@media only screen and (max-width: 500px){
+	#form_one{
+        width: 80%;
+    }
+    .contact{
+        display: block;
+        width: 100%;
+    }.input-box + p{
+        margin: 10px 0;
+    }
+}

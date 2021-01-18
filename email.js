@@ -7,8 +7,8 @@ var phone_regex = /^\s*(\d{2}|\d{0})[-. ]?(\d{5}|\d{4})[-. ]?(\d{4})[-. ]?\s*$/
 const transporter = mailer.createTransport({
 	service: 'gmail',
 	auth: {
-		user: 'email_gmail',
-		pass: 'pass_email_gmail'
+		user: `${process.env.GMAIL_LOGIN}`,
+		pass: `${process.env.GMAIL_PASS}`
 	}
 })
 

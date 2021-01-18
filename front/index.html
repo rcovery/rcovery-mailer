@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<script type="text/javascript" src="rcoveryMail.js"></script>
+	</head>
+	<body>
+
+		<center>RCovery Mailer
+			<form autocomplete="off" id="form_one" name="emailForm">
+				<div class="contact">
+					<div class="input-box">
+						<input class="input_style" name="from" type="email" placeholder="a"/>
+						<label>Email</label>
+					</div>
+					<p>or</p>
+					<div class="input-box">
+						<input class="input_style" name="phone" type="tel" placeholder="a"/>
+						<label>Phone</label>
+					</div>
+				</div>
+
+				<div class="input-box">
+					<input class="input_style" name="subject" type="text" placeholder="a"/>
+					<label>Subject</label>
+				</div>
+
+				<div class="input-box">
+					<textarea class="input_style" name="text" placeholder="a"></textarea>
+					<label>Text</label>
+				</div>
+
+				<input type="button" class="input_style" value="Send" onclick="sendMail('emailForm', 'youremail@email.com', {subject_min: 2, text_min: 10})"/>
+			</form>
+		</center>
+	</body>
+</html>
