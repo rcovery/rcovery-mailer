@@ -1,5 +1,5 @@
 # Rcovery-Mailer
-![node-current](https://img.shields.io/node/v/latest)  ![license](https://img.shields.io/badge/license-mit-yellow)  
+![node-current](https://img.shields.io/node/v/latest)  ![license](https://img.shields.io/badge/license-mit-yellow)  ![hackable](https://img.shields.io/badge/hackable%3F-yes-red)  ![backend](https://img.shields.io/badge/backend%3F-no-blue)
 Send email directly from javascript (no backend is needed).
 ## Table of contents
 * [General info](#general-info)
