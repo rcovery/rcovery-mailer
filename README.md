@@ -1,10 +1,11 @@
 # Rcovery-Mailer
-![node-current](https://img.shields.io/node/v/latest)  ![license](https://img.shields.io/badge/license-mit-yellow)  ![hackable](https://img.shields.io/badge/hackable%3F-yes-red)  ![backend](https://img.shields.io/badge/backend%3F-no-blue)  
+![node-current](https://img.shields.io/node/v/latest)  ![license](https://img.shields.io/badge/license-mit-yellow)  ![hackable](https://img.shields.io/badge/hackable%3F-yes-red)  ![backend](https://img.shields.io/badge/backend%3F-no-blue)  ![language](https://img.shields.io/badge/language%3F-english-pink)   ![country](https://img.shields.io/badge/country%3F-br-green)   
 A Hackable email sender directly from javascript (no backend is needed).
 ## Table of contents
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Credits](#credits)
+* [Credits](#credits)  
+* [License](#license)  
 
 ## General info
 This project provides a function that sends email, which can be easily implemented on your front-end. Without the need for a server, using a free server, specific to this repository, you can simply create a specific button that will send your form email.  
