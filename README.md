@@ -1,5 +1,5 @@
 # Rcovery-Mailer
-[![Version](https://img.shields.io/appveyor/build/marssaljr/rcovery-mailer?style=flat-square)]()   
+()![node-current](https://img.shields.io/node/v/latest)  
 Send email directly from javascript (no backend is needed).
 ## Table of contents
 * [General info](#general-info)
