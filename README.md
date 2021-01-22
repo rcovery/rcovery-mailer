@@ -15,9 +15,10 @@ Project is created with:
 * Html: 20.3%  
 ## Setup  
 To run this project, install it locally:
-Download the rcoveryMail.js ![download](https://github.com/marssaljr/rcovery-mailer/blob/main/src/front/rcoveryMail.js)  
+Download the [rcoveryMail.js](https://github.com/marssaljr/rcovery-mailer/blob/main/src/front/rcoveryMail.js) and put it on the path of your project
+Create a button and implement the trigger like the example:
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+<script type="text/javascript" src="rcoveryMail.js"></script>
+<input type="button" class="input_style" value="Send" onclick="sendMail('emailForm', 'youremail@email.com', {subject_min: 2, text_min: 10})"/>
 ```
+Really easy! the form is already!
