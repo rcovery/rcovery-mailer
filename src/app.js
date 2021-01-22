@@ -5,10 +5,10 @@ const mail = require('./email')
 require('dotenv').config()
 
 app.use(cors())
-app.use(express.static("front"))
+app.use(express.static("../front"))
 
 app.get("/", (req, res) => {
-	res.sendFile("index.html")
+	res.sendFile("../index.html")
 })
 app.post("/sendmail/:encoded?", (req, res) => {
 	res.send(mail.verify(req.params.encoded))
