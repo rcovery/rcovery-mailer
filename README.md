@@ -1,6 +1,6 @@
 # Rcovery-Mailer
-![node-current](https://img.shields.io/node/v/latest)  ![license](https://img.shields.io/badge/license-mit-yellow)  ![hackable](https://img.shields.io/badge/hackable%3F-yes-red)  ![backend](https://img.shields.io/badge/backend%3F-no-blue)
-  A Hackable email sender directly from javascript (no backend is needed).
+![node-current](https://img.shields.io/node/v/latest)  ![license](https://img.shields.io/badge/license-mit-yellow)  ![hackable](https://img.shields.io/badge/hackable%3F-yes-red)  ![backend](https://img.shields.io/badge/backend%3F-no-blue)  
+A Hackable email sender directly from javascript (no backend is needed).
 ## Table of contents
 * [Technologies](#technologies)
 * [Setup](#setup)
@@ -22,3 +22,13 @@ Create a button and implement the trigger like the example:
 <input type="button" class="input_style" value="Send" onclick="sendMail('emailForm', 'youremail@email.com', {subject_min: 2, text_min: 10})"/>
 ```
 Really easy! the form is already!
+
+## Credits  
+- [Rcovery](https://github.com/rcovery)  
+- [nodemailer](https://github.com/nodemailer/nodemailer)  
+- [Marssaljr](https://github.com/marssaljr)  
+### License
+
+Rcovery is licensed under the **MIT license**
+
+---
