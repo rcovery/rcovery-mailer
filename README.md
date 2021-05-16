@@ -20,7 +20,9 @@ Download the [rcoveryMail.js](https://github.com/marssaljr/rcovery-mailer/blob/m
 Create a button and implement the trigger like the example:
 ```
 <script type="text/javascript" src="rcoveryMail.js"></script>
-<input type="button" class="input_style" value="Send" onclick="sendMail('emailForm', 'youremail@email.com', {subject_min: 2, text_min: 10})"/>
+<form name='emailForm'>
+  <input type="button" class="input_style" value="Send" onclick="sendMail('emailForm', 'youremail@email.com', {subject_min: 2, text_min: 10})"/>
+</form>
 ```
 Really easy! the form is already!
 
