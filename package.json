@@ -1,20 +1,25 @@
 {
-  "name": "mailsendapi",
-  "version": "1.0.0",
-  "description": "",
+  "name": "rcovery_mailer",
+  "version": "1.1.0",
+  "description": "![node-current](https://img.shields.io/node/v/latest)  ![license](https://img.shields.io/badge/license-mit-yellow)  ![hackable](https://img.shields.io/badge/hackable%3F-yes-red)  ![backend](https://img.shields.io/badge/backend%3F-no-blue)  ![language](https://img.shields.io/badge/language%3F-english-pink)   ![country](https://img.shields.io/badge/country%3F-br-green)    A Hackable email sender directly from javascript (no backend is needed). ## Table of contents * [Technologies](#technologies) * [Setup](#setup) * [Credits](#credits)   * [License](#license)",
   "main": "index.js",
   "scripts": {
-    "start": "node 'src/app.js'",
+    "start": "node-dev --respawn --clear src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcovery/rcovery-mailer.git"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "base-64": "^1.0.0",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "nodemailer": "^6.4.16"
+  "bugs": {
+    "url": "https://github.com/rcovery/rcovery-mailer/issues"
   },
-  "devDependencies": {}
+  "homepage": "https://github.com/rcovery/rcovery-mailer#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
 }

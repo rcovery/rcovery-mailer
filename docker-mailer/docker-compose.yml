@@ -1,0 +1,10 @@
+version: "3.5"
+
+services:
+  app:
+    build: .
+    ports:
+      - 7070:7070
+    volumes:
+      - ../:/home/rcovery_mailer/
+    command: tail -F /etc/passwd
